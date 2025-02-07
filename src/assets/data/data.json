@@ -38,7 +38,7 @@
       "role": "Front End Developer",
       "date": "2015 - 2017",
       "description": "experience.softek",
-      "urlImage": "../../../assets/images/companies/softek.svg",
+      "urlImage": "assets/images/companies/softek.svg",
       "technologies": ["HTML", "CSS", "Angular", "Typescript"]
     },
     {
@@ -47,7 +47,7 @@
       "role": "Front End Developer",
       "date": "2017",
       "description": "experience.eptisa",
-      "urlImage": "../../../assets/images/companies/eptisa.png",
+      "urlImage": "assets/images/companies/eptisa.png",
       "technologies": [
         "HTML",
         "CSS",
@@ -63,7 +63,7 @@
       "role": "Front End Tech Lead",
       "date": "2018 - 2022",
       "description": "experience.goldenRace",
-      "urlImage": "../../../assets/images/companies/golden-race.svg",
+      "urlImage": "assets/images/companies/golden-race.svg",
       "technologies": ["HTML", "SASS", "Angular", "Typescript"]
     },
     {
@@ -72,7 +72,7 @@
       "role": "Front End Developer",
       "date": "2022 - 2023",
       "description": "experience.foreworth",
-      "urlImage": "../../../assets/images/companies/foreworth.svg",
+      "urlImage": "assets/images/companies/foreworth.svg",
       "technologies": ["HTML", "SASS", "Angular", "Typescript"]
     },
     {
@@ -81,7 +81,7 @@
       "role": "Front End Developer",
       "date": "2023 - ",
       "description": "experience.vintegris",
-      "urlImage": "../../../assets/images/companies/vintegris.png",
+      "urlImage": "assets/images/companies/vintegris.png",
       "technologies": [
         "HTML",
         "SASS",
@@ -145,13 +145,13 @@
     {
       "title": "personalWorks.multigames.title",
       "description": "personalWorks.multigames.description",
-      "urlImage": "../../../assets/images/personal-works/multigames.png",
+      "urlImage": "assets/images/personal-works/multigames.png",
       "link": "https://alberto-carretero.github.io/ng-multigames/#/"
     },
     {
       "title": "personalWorks.book.title",
       "description": "personalWorks.book.description",
-      "urlImage": "../../../assets/images/personal-works/book.png",
+      "urlImage": "assets/images/personal-works/book.png",
       "link": "https://www.amazon.es/Pruebas-funcionalidades-optimizaci%C3%B3n-p%C3%A1ginas-IFCD0110-ebook/dp/B0B4WYJ76C/ref=sr_1_5?asc_campaign=3f05ed99d40a8630e778f41d994fd7ff&asc_source=01HPSC554HBM5TZJ7QNRZ531TB&tag=snxes66-21"
     }
   ]
