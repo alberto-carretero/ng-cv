@@ -1,0 +1,18 @@
+@import "../../../assets/scss/variables";
+
+.about-me {
+  &__general-info,
+  &__degree {
+    color: $red;
+  }
+
+  &__title,
+  &__description {
+    color: $grey;
+  }
+
+  & img {
+    margin: 0 auto;
+    max-width: 250px;
+  }
+}

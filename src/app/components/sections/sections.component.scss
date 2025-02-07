@@ -1,0 +1,21 @@
+@import "../../../assets/scss/variables";
+
+.sections {
+  height: 100%;
+
+  &__acronym {
+    color: $red;
+  }
+
+  &__option {
+    color: $grey;
+    margin: 0.5rem 0;
+    cursor: pointer;
+
+    &:hover,
+    &--active {
+      color: $red;
+      transition: 1s;
+    }
+  }
+}

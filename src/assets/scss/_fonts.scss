@@ -1,0 +1,17 @@
+$common-assets-fonts-path: ".." !default;
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("#{$common-assets-fonts-path}/fonts/Roboto-Regular.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("#{$common-assets-fonts-path}/fonts/Roboto-Bold.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}

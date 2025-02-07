@@ -1,0 +1,16 @@
+@import "../../../assets/scss/variables";
+
+.skills {
+  &__title {
+    color: $grey;
+  }
+
+  & .progress {
+    background-color: $grey;
+    max-height: 5px;
+  }
+
+  & .progress-bar {
+    background-color: $red;
+  }
+}

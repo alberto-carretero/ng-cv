@@ -1,0 +1,31 @@
+<div
+  *ngIf="data | async as info"
+  class="home vh-100 d-flex justify-content-center align-items-center p-4 border rounded"
+>
+  <div class="row w-100">
+    <section class="col-1 d-flex justify-content-center home__sections">
+      <app-sections [data]="data"></app-sections>
+    </section>
+    <section class="col-2 p-0 home__me">
+      <app-me></app-me>
+    </section>
+    <section class="col">
+      <app-about-me
+        *ngIf="info.activeSection === sectionsEnum.ABOUTME"
+        [info]="info"
+      ></app-about-me>
+      <app-experience
+        *ngIf="info.activeSection === sectionsEnum.EXPERIENCE"
+        [info]="info"
+      ></app-experience>
+      <app-skills
+        *ngIf="info.activeSection === sectionsEnum.SKILLS"
+        [info]="info"
+      ></app-skills>
+      <app-personal-works
+        *ngIf="info.activeSection === sectionsEnum.PERSONALWORKS"
+        [info]="info"
+      ></app-personal-works>
+    </section>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+<div
+  class="sections d-flex flex-column justify-content-between text-center py-3 fw-bold"
+>
+  <div class="sections__acronym">AC</div>
+  <div class="sections__options-container fs-6">
+    <div
+      *ngFor="let section of sections"
+      class="sections__option"
+      [class.sections__option--active]="section.active"
+      (click)="showSection(section)"
+    >
+      <i class="bi {{ section.icon }}"></i>
+    </div>
+  </div>
+  <div>
+    <a
+      href="https://www.linkedin.com/in/alberto-carretero-arribas-17b64b11b/"
+      target="_blank"
+      ><i class="bi bi-linkedin sections__option"></i
+    ></a>
+  </div>
+</div>

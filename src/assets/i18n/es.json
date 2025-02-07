@@ -1,0 +1,49 @@
+{
+  "aboutMe": {
+    "title": "Sobre mí",
+    "description": "Con más de {{ experience }} años de experiencia en el desarrollo de aplicaciones web, he tenido la oportunidad de participar en proyectos de diversa índole para diferentes sectores como por ejemplo la banca o el sector editorial.",
+    "moreInfo": "En cada proceso, siempre he estado involucrado de forma activa en la toma de decisiones tanto a nivel de análisis, como de diseño y programación en sí y en todas ellas con la convicción plena de que el trabajo en equipo es el motor indispensable para lograr los objetivos así como para contribuir a ampliar el conocimiento propio y el de nuestros compañeros de forma recíproca.",
+    "extraInfo": "Destacar además que también he asumido puestos de responsabilidad a nivel técnico (Líder Técnico) tanto gestionando equipos como aportando las soluciones técnicas más adecuadas para cada caso.",
+    "yearsOld": "{{ years}} años",
+    "city": "Málaga",
+    "occupation": "Front End Developer"
+  },
+  "education": {
+    "title": "Estudios Académicos",
+    "qualification": "Titulación",
+    "degree": "Ingeniería Técnica en Informática de Gestión",
+    "highSchool": "Universidad de Córdoba",
+    "course": "Programador de aplicaciones informáticas",
+    "companyCourse": "FERSOFT (Curso FPO - 970 horas)",
+    "other": "Otra formación",
+    "languages": "Idiomas",
+    "spanish": "Español",
+    "english": "Inglés"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "ic": "Desarrollo de material interactivo para cursos de formación.",
+    "softek": "Desarrollo de diferentes proyectos para Isban (Banco Santander), la DGT (Dirección General de Tráfico) y el operador turístico TUI.",
+    "eptisa": "Desarrollo de aplicaciones móviles (híbridas) para el Canal de Isabel II y ACOEMAN.",
+    "goldenRace": "Liderazgo técnico en el desarrollo de juegos de azar virtuales para diferentes clientes de todo el mundo.",
+    "foreworth": "Desarrollo de una aplicación web destinada a valorar/cuantificar el rendimiento de los programadores de las empresas en función de diferentes métricas a partir de los commits realizados.",
+    "vintegris": "Desarrollo de aplicaciones para la gestión de certificados y firmas digitales.",
+    "currently": "Actualidad",
+    "technologies": "Tecnologías"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "technical": "Técnicas"
+  },
+  "personalWorks": {
+    "title": "Proyectos personales",
+    "multigames": {
+      "title": "Multigames",
+      "description": "Colección de juegos para niñ@s desarrollado íntegramente con Angular."
+    },
+    "book": {
+      "title": "Prueba de funcionalidades y optimización de páginas web",
+      "description": "Coautoría de este manual enfocado principalmente para desarrolladores front end."
+    }
+  }
+}

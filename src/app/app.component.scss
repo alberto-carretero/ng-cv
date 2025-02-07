@@ -1,0 +1,23 @@
+@import "../assets/scss/variables";
+
+main {
+  background-image: url("../assets/images/background.png");
+  background-size: cover;
+
+  & .languages {
+    text-transform: uppercase;
+    position: absolute;
+    background-color: $black;
+    color: $white;
+    right: 1rem;
+    top: 1rem;
+
+    &__separator {
+      color: $grey;
+    }
+
+    & > span:not(.languages__separator) {
+      cursor: pointer;
+    }
+  }
+}

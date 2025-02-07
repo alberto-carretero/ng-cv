@@ -1,0 +1,27 @@
+<div class="personal-works h-100 px-2 py-3">
+  <h3 class="d-flex align-items-center">
+    <i class="bi bi-person-workspace d-none d-lg-inline me-2"></i>
+    {{ "personalWorks.title" | translate }}
+  </h3>
+  <div class="row d-flex align-items-center mt-3">
+    <div *ngFor="let work of info.personalWorks" class="col-12 d-flex mb-4">
+      <div class="col personal-works__image me-2">
+        <a href="{{ work.link }}" target="_blank">
+          <img src="{{ work.urlImage }}" width="100%"
+        /></a>
+      </div>
+      <div class="col-9">
+        <h5 class="personal-works__name">
+          {{ work.title | translate }}
+        </h5>
+        <p class="personal-works__content small">
+          {{ work.description | translate }}
+          <a href="{{ work.link }}" target="_blank"
+            ><i class="bi bi-box-arrow-up-right"></i
+          ></a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <hr />
+</div>

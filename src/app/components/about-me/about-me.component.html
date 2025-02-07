@@ -1,0 +1,59 @@
+<div class="about-me px-2 py-3">
+  <h3>
+    <i class="bi bi-person d-none d-lg-inline"></i>
+    <img
+      class="d-block d-lg-none mb-3"
+      src="../../../assets/images/me_short.png"
+      width="75%"
+    />
+    Alberto Carretero
+  </h3>
+  <p class="small">
+    <em>
+      <span class="about-me__general-info">{{
+        "aboutMe.occupation" | translate
+      }}</span
+      >&nbsp;&nbsp;/&nbsp;
+      <span class="about-me__general-info">{{
+        "aboutMe.yearsOld" | translate: { years: "1985-11-15" | calculateYears }
+      }}</span
+      >&nbsp;&nbsp;/&nbsp;
+      <span class="about-me__general-info">{{
+        "aboutMe.city" | translate
+      }}</span>
+      &nbsp;/&nbsp;
+      <span class="about-me__general-info fs-7">{{
+        "acarreteroarribas@gmail.com"
+      }}</span></em
+    >
+  </p>
+  <p class="about-me__description small">
+    {{
+      "aboutMe.description"
+        | translate: { experience: "2012-05-01" | calculateYears }
+    }}
+  </p>
+  <p class="about-me__description small">
+    {{ "aboutMe.moreInfo" | translate }}
+  </p>
+  <p class="about-me__description small">
+    {{ "aboutMe.extraInfo" | translate }}
+  </p>
+  <hr />
+  <h5 class="about-me__title mb-0">
+    <i class="bi bi-mortarboard me-2"></i>
+    {{ "education.qualification" | translate }}
+  </h5>
+  <ng-container *ngFor="let formation of info.formation">
+    <p class="small mt-3 mb-0">
+      <span class="about-me__degree me-2">{{
+        formation.name | translate
+      }}</span>
+      <span class="about-me__description">{{ formation.date }}</span>
+    </p>
+    <p class="about-me__description small mb-0">
+      {{ formation.entity | translate }}
+    </p>
+  </ng-container>
+  <hr />
+</div>
