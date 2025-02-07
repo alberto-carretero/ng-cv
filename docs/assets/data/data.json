@@ -1,0 +1,158 @@
+{
+  "activeSection": "about-me",
+  "formation": [
+    {
+      "name": "education.degree",
+      "entity": "Universidad de Córdoba",
+      "date": "2004 - 2012"
+    },
+    {
+      "name": "education.course",
+      "entity": "FERSOFT (Curso FPO - 970 horas)",
+      "date": "2011"
+    }
+  ],
+  "languages": [
+    {
+      "name": "education.spanish",
+      "percentage": "100"
+    },
+    {
+      "name": "education.english",
+      "percentage": "65"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "ic",
+      "company": "IC Editorial",
+      "role": "Front End Developer",
+      "date": "2012 - 2015",
+      "description": "experience.ic",
+      "urlImage": "",
+      "technologies": ["HTML", "CSS", "Javascript", "JQuery"]
+    },
+    {
+      "id": "softek",
+      "company": "Softek",
+      "role": "Front End Developer",
+      "date": "2015 - 2017",
+      "description": "experience.softek",
+      "urlImage": "../../../assets/images/companies/softek.svg",
+      "technologies": ["HTML", "CSS", "Angular", "Typescript"]
+    },
+    {
+      "id": "eptisa",
+      "company": "Eptisa TI",
+      "role": "Front End Developer",
+      "date": "2017",
+      "description": "experience.eptisa",
+      "urlImage": "../../../assets/images/companies/eptisa.png",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Angular JS",
+        "Cordova",
+        "Ionic",
+        "Firebase"
+      ]
+    },
+    {
+      "id": "gr",
+      "company": "Golden race",
+      "role": "Front End Tech Lead",
+      "date": "2018 - 2022",
+      "description": "experience.goldenRace",
+      "urlImage": "../../../assets/images/companies/golden-race.svg",
+      "technologies": ["HTML", "SASS", "Angular", "Typescript"]
+    },
+    {
+      "id": "foreworth",
+      "company": "Foreworth",
+      "role": "Front End Developer",
+      "date": "2022 - 2023",
+      "description": "experience.foreworth",
+      "urlImage": "../../../assets/images/companies/foreworth.svg",
+      "technologies": ["HTML", "SASS", "Angular", "Typescript"]
+    },
+    {
+      "id": "vintegris",
+      "company": "Víntegris",
+      "role": "Front End Developer",
+      "date": "2023 - ",
+      "description": "experience.vintegris",
+      "urlImage": "../../../assets/images/companies/vintegris.png",
+      "technologies": [
+        "HTML",
+        "SASS",
+        "Angular",
+        "Typescript",
+        "SPA (Micro sites)"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML 5",
+      "percentage": "95"
+    },
+    {
+      "name": "CSS 3",
+      "percentage": "90"
+    },
+    {
+      "name": "Boostrap",
+      "percentage": "90"
+    },
+    {
+      "name": "Javascript",
+      "percentage": "95"
+    },
+    {
+      "name": "Typescript",
+      "percentage": "95"
+    },
+    {
+      "name": "JQuery",
+      "percentage": "95"
+    },
+    {
+      "name": "Angular",
+      "percentage": "95"
+    },
+    {
+      "name": "SPA (Micro-sites)",
+      "percentage": "65"
+    },
+    {
+      "name": "Component Library",
+      "percentage": "65"
+    },
+    {
+      "name": "RxJS",
+      "percentage": "75"
+    },
+    {
+      "name": "Ionic",
+      "percentage": "80"
+    },
+    {
+      "name": "Firebase",
+      "percentage": "60"
+    }
+  ],
+  "personalWorks": [
+    {
+      "title": "personalWorks.multigames.title",
+      "description": "personalWorks.multigames.description",
+      "urlImage": "../../../assets/images/personal-works/multigames.png",
+      "link": "https://alberto-carretero.github.io/ng-multigames/#/"
+    },
+    {
+      "title": "personalWorks.book.title",
+      "description": "personalWorks.book.description",
+      "urlImage": "../../../assets/images/personal-works/book.png",
+      "link": "https://www.amazon.es/Pruebas-funcionalidades-optimizaci%C3%B3n-p%C3%A1ginas-IFCD0110-ebook/dp/B0B4WYJ76C/ref=sr_1_5?asc_campaign=3f05ed99d40a8630e778f41d994fd7ff&asc_source=01HPSC554HBM5TZJ7QNRZ531TB&tag=snxes66-21"
+    }
+  ]
+}

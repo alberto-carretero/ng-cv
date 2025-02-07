@@ -1,0 +1,49 @@
+{
+  "aboutMe": {
+    "title": "About Me",
+    "description": "With more than {{ experience }} years of experience in web application development, I have had the opportunity to participate in various projects across different sectors, such as banking and the publishing industry.",
+    "moreInfo": "Throughout each process, I have always been actively involved in decision-making at all levels, including analysis, design, and programming, with the firm belief that teamwork is essential for achieving objectives and for mutually expanding both personal and colleagues' knowledge.",
+    "extraInfo": "Additionally, I have taken on technical leadership roles (Technical Lead), managing teams and providing the most suitable technical solutions for each case.",
+    "yearsOld": "{{ years }} years",
+    "city": "Málaga",
+    "occupation": "Front End Developer"
+  },
+  "education": {
+    "title": "Academic Studies",
+    "qualification": "Qualification",
+    "degree": "Technical Engineering in Management Informatics",
+    "highSchool": "University of Córdoba",
+    "course": "Computer Applications Programmer",
+    "companyCourse": "FERSOFT (FPO Course - 970 hours)",
+    "other": "Other Training",
+    "languages": "Languages",
+    "spanish": "Spanish",
+    "english": "English"
+  },
+  "experience": {
+    "title": "Experience",
+    "ic": "Development of interactive materials for training courses.",
+    "softek": "Development of various projects for Isban (Banco Santander), the DGT (General Directorate of Traffic), and the tour operator TUI.",
+    "eptisa": "Development of hybrid mobile applications for Canal de Isabel II and ACOEMAN.",
+    "goldenRace": "Technical leadership in the development of virtual gambling games for various clients worldwide.",
+    "foreworth": "Development of a web application designed to assess/quantify the performance of company programmers based on different metrics derived from commits.",
+    "vintegris": "Development of applications for managing digital certificates and signatures.",
+    "currently": "Currently",
+    "technologies": "Technologies"
+  },
+  "skills": {
+    "title": "Skills",
+    "technical": "Technical"
+  },
+  "personalWorks": {
+    "title": "Personal Projects",
+    "multigames": {
+      "title": "Multigames",
+      "description": "A collection of games for children, fully developed with Angular."
+    },
+    "book": {
+      "title": "Testing Functionality and Optimizing Web Pages",
+      "description": "Co-authorship of this manual primarily aimed at front-end developers."
+    }
+  }
+}
