@@ -12,12 +12,12 @@ export class ExperienceComponent implements OnInit {
 
   public companyExperienceInfo: IExperienceInfo = {} as IExperienceInfo;
   public companyEnum = CompanyEnum;
-  public isFirstndex: boolean = false;
+  public isFirstndex: boolean = true;
 
   constructor() {}
 
   ngOnInit(): void {
-    this.showCompanyInfo(CompanyEnum.IC, false);
+    this.showCompanyInfo(CompanyEnum.VINTEGRIS, true);
   }
 
   public showCompanyInfo(id: string, isFirstndex: boolean) {
