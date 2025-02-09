@@ -12,7 +12,7 @@ export class ExperienceComponent implements OnInit {
 
   public companyExperienceInfo: IExperienceInfo = {} as IExperienceInfo;
   public companyEnum = CompanyEnum;
-  public isLastIndex: boolean = false;
+  public isFirstndex: boolean = false;
 
   constructor() {}
 
@@ -20,10 +20,10 @@ export class ExperienceComponent implements OnInit {
     this.showCompanyInfo(CompanyEnum.IC, false);
   }
 
-  public showCompanyInfo(id: string, isLastIndex: boolean) {
+  public showCompanyInfo(id: string, isFirstndex: boolean) {
     this.companyExperienceInfo = this.info.experiences.find(
       (experience: IExperienceInfo) => experience.id === id,
     )!;
-    this.isLastIndex = isLastIndex;
+    this.isFirstndex = isFirstndex;
   }
 }

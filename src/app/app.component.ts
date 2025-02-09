@@ -9,14 +9,14 @@ import { LanguagesEnum } from './models/enums';
 })
 export class AppComponent {
   public languagesEnum = LanguagesEnum;
+  public selectedLanguage: LanguagesEnum = LanguagesEnum.ES;
 
   constructor(private translate: TranslateService) {
-    const defaultLanguage = LanguagesEnum.ES;
-    this.setLanguage(defaultLanguage);
+    this.setLanguage(this.selectedLanguage);
   }
 
   public setLanguage(language: LanguagesEnum) {
-    console.log('🚀 ~ AppComponent ~ setLanguage ~ language:', language);
+    this.selectedLanguage = language;
     this.translate.setDefaultLang(language);
     localStorage.setItem('language', language);
   }

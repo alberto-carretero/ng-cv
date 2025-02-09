@@ -8,5 +8,5 @@ import { IExperienceInfo } from 'src/app/models/interfaces';
 })
 export class CompanyExperienceInfoComponent {
   @Input() companyExperienceInfo: IExperienceInfo = {} as IExperienceInfo;
-  @Input() isLastIndex: boolean = false;
+  @Input() isFirstndex: boolean = false;
 }

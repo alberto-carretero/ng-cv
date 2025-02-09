@@ -12,5 +12,15 @@
 
   & .progress-bar {
     background-color: $red;
+    animation: progress 1.5s ease-in-out forwards;
+  }
+}
+
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
   }
 }

@@ -1,8 +1,16 @@
 <main class="container-fluid p-0">
   <div class="languages p-1">
-    <span (click)="setLanguage(languagesEnum.ES)">{{ languagesEnum.ES }}</span>
+    <span
+      [class.languages--selected]="selectedLanguage === languagesEnum.ES"
+      (click)="setLanguage(languagesEnum.ES)"
+      >{{ languagesEnum.ES }}</span
+    >
     <span class="languages__separator mx-2">|</span>
-    <span (click)="setLanguage(languagesEnum.EN)">{{ languagesEnum.EN }}</span>
+    <span
+      [class.languages--selected]="selectedLanguage === languagesEnum.EN"
+      (click)="setLanguage(languagesEnum.EN)"
+      >{{ languagesEnum.EN }}</span
+    >
   </div>
   <router-outlet></router-outlet>
 </main>

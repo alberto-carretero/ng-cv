@@ -1,9 +1,9 @@
 {
   "aboutMe": {
     "title": "Sobre mí",
-    "description": "Con más de {{ experience }} años de experiencia en el desarrollo de aplicaciones web, he tenido la oportunidad de participar en proyectos de diversa índole para diferentes sectores como por ejemplo la banca o el sector editorial.",
-    "moreInfo": "En cada proceso, siempre he estado involucrado de forma activa en la toma de decisiones tanto a nivel de análisis, como de diseño y programación en sí y en todas ellas con la convicción plena de que el trabajo en equipo es el motor indispensable para lograr los objetivos así como para contribuir a ampliar el conocimiento propio y el de nuestros compañeros de forma recíproca.",
-    "extraInfo": "Destacar además que también he asumido puestos de responsabilidad a nivel técnico (Líder Técnico) tanto gestionando equipos como aportando las soluciones técnicas más adecuadas para cada caso.",
+    "description": "Con más de {{ experience }} años de experiencia en el desarrollo de aplicaciones web, he tenido la oportunidad de participar en proyectos de diversa índole en sectores como la banca y el editorial.",
+    "moreInfo": "En cada proceso, he estado activamente involucrado en la toma de decisiones tanto a nivel de análisis, como de diseño y programación, siempre con la convicción de que el trabajo en equipo es un motor indispensable para alcanzar los objetivos y fomentar el crecimiento del conocimiento, tanto propio como de nuestros compañeros, de forma recíproca.",
+    "extraInfo": "Además, he asumido roles de responsabilidad a nivel técnico, como Líder Técnico, gestionando equipos y proporcionando soluciones técnicas óptimas para cada caso.",
     "yearsOld": "{{ years}} años",
     "city": "Málaga",
     "occupation": "Front End Developer"

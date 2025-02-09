@@ -1,9 +1,9 @@
 {
   "aboutMe": {
     "title": "About Me",
-    "description": "With more than {{ experience }} years of experience in web application development, I have had the opportunity to participate in various projects across different sectors, such as banking and the publishing industry.",
-    "moreInfo": "Throughout each process, I have always been actively involved in decision-making at all levels, including analysis, design, and programming, with the firm belief that teamwork is essential for achieving objectives and for mutually expanding both personal and colleagues' knowledge.",
-    "extraInfo": "Additionally, I have taken on technical leadership roles (Technical Lead), managing teams and providing the most suitable technical solutions for each case.",
+    "description": "With over {{ experience }} years of experience in web application development, I have had the opportunity to participate in a variety of projects across sectors such as banking and publishing.",
+    "moreInfo": "TIn each process, I have been actively involved in decision-making at the analysis, design, and programming levels, always with the conviction that teamwork is an essential driver for achieving objectives and fostering knowledge growth —both my own and that of my colleagues— in a reciprocal manner.",
+    "extraInfo": "Additionally, I have taken on technical leadership roles, such as Technical Lead, managing teams and providing optimal technical solutions for each case.",
     "yearsOld": "{{ years }} years",
     "city": "Málaga",
     "occupation": "Front End Developer"

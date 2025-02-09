@@ -8,9 +8,9 @@
       class="experience__progressbar d-flex flex-column flex-md-row justify-content-between w-100 m-0 p-0"
     >
       <li
-        *ngFor="let experience of info.experiences; let isLastIndex = last"
+        *ngFor="let experience of info.experiences; let isFirstndex = first"
         [class.active]="experience.id === companyExperienceInfo.id"
-        (click)="showCompanyInfo(experience.id, isLastIndex)"
+        (click)="showCompanyInfo(experience.id, isFirstndex)"
       >
         {{ experience.company }}
       </li>
@@ -19,12 +19,12 @@
   <app-company-experience-info
     class="d-none d-md-block px-5"
     [companyExperienceInfo]="companyExperienceInfo"
-    [isLastIndex]="isLastIndex"
+    [isFirstndex]="isFirstndex"
   ></app-company-experience-info>
   <app-company-experience-info
-    *ngFor="let companyInfo of info.experiences; let isLastIndex = last"
+    *ngFor="let companyInfo of info.experiences; let isFirstndex = first"
     class="d-block d-md-none"
     [companyExperienceInfo]="companyInfo"
-    [isLastIndex]="isLastIndex"
+    [isFirstndex]="isFirstndex"
   ></app-company-experience-info>
 </div>

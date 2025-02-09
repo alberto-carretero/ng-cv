@@ -1,7 +1,8 @@
 @import "../assets/scss/variables";
 
 main {
-  background-image: url("../assets/images/background.png");
+  background: linear-gradient(0deg, rgba($white, 0.1), rgba($white, 0.1)),
+    url("../assets/images/background.png");
   background-size: cover;
 
   & .languages {
@@ -14,6 +15,11 @@ main {
 
     &__separator {
       color: $grey;
+    }
+
+    &--selected {
+      color: $red;
+      transition: 0.5s;
     }
 
     & > span:not(.languages__separator) {
