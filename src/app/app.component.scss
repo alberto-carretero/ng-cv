@@ -19,6 +19,7 @@ main {
 
     &--selected {
       color: $red;
+      font-weight: bold;
       transition: 0.5s;
     }
 
