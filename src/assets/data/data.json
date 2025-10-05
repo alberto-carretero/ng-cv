@@ -143,6 +143,12 @@
   ],
   "personalWorks": [
     {
+      "title": "personalWorks.creacionesNerium.title",
+      "description": "personalWorks.creacionesNerium.description",
+      "urlImage": "assets/images/personal-works/creaciones-nerium.svg",
+      "link": "https://creaciones-nerium.web.app"
+    },
+    {
       "title": "personalWorks.multigames.title",
       "description": "personalWorks.multigames.description",
       "urlImage": "assets/images/personal-works/multigames.png",

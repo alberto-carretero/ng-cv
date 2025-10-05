@@ -37,6 +37,10 @@
   },
   "personalWorks": {
     "title": "Personal Projects",
+    "creacionesNerium": {
+      "title": "Creaciones Nerium",
+      "description": "Handcrafted macramé jewellery shop."
+    },
     "multigames": {
       "title": "Multigames",
       "description": "A collection of games for children, fully developed with Angular."
